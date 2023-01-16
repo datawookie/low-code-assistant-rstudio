@@ -44,7 +44,7 @@ If you're in a situation where you cannot run `remotes::install_github()` becaus
 3. Make sure the {devtools} R package is installed: `install.packages("devtools")`
 4. Build the package: `devtools::build()`
 5. This should have created a file named `assistDomino_<version>.tar.gz` in the parent directory. Copy this file to your Domino project.
-6. In Domino, you can now use this file to install: `remotes::install_local("path/to/assistDomino_<version>.tar.gz)"`
+6. In Domino, you can now use this file to install: `remotes::install_local("path/to/assistDomino_<version>.tar.gz")`
 
 ## How to run
 
